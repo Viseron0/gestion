@@ -1,0 +1,185 @@
+.contenedor{
+    padding-left: 0%;
+    padding-right: 0%;
+    min-width: 100% ;
+    height: 100vh ;
+}
+.centrar{
+    text-align:center;
+}
+
+.BotonPrincipal{
+    background-color:#000;
+    color:#ccc;
+    padding:5px 10px;
+    font-size:18px;
+    margin-top:16px;
+}
+
+.columna {
+	position: absolute;
+	
+	padding: 2px;
+	
+	width: 750px;
+	height: 55px;  
+    
+	top: 10%; 
+	left: 5%;
+  }
+
+.columna1 {   
+	position: absolute;
+    	
+	padding:2px;
+	
+	width: 750px;
+	height: 600px;  
+    
+	top: 16%; 
+	left: 5%;
+}
+
+.columna2{
+
+    position: absolute;
+	
+	padding: 1px;
+	
+	width: 700px;
+	height: 600px;  
+    
+	top: 20%; 
+	left: 5%;
+}
+
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.altura{
+    height: 600px; 
+}
+
+
+.animdesvanecer{
+    animation:opac 0.8s;
+}@keyframes opacidad{from{opacity:0} to{opacity:1}}
+
+
+
+.banner{
+    text-align:center;
+    padding:12px 24px;
+    color:#000;
+    background-color:#fff;
+    font-size:24px;
+}
+
+
+
+.glassmorhism{
+background: rgba( 255, 255, 255, 0.55 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 7.5px );
+-webkit-backdrop-filter: blur( 7.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.columtoolbar{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.transparent {
+    background-color: transparent !important;
+  }
+
+
+  .navbar-default .navbar-nav>li>a {
+    font-size:20px; 
+    color:#fff; 
+}
+
+.column_33 {
+    float: left;
+    width: 33.33%;
+    height: 450px; /* Should be removed. Only for demonstration */
+  }
+  .column_66 {
+    float: left;
+    width: 66.66%;
+    padding: 10px;
+    height: 450px; /* Should be removed. Only for demonstration */
+  }
+   
+  .column_75 {
+    float: left;
+    padding: 40px;
+    width: 75%;
+    height: 750px; /* Should be removed. Only for demonstration */
+  }
+  .column_12 {
+    float: left;
+    width: 12.5%;
+    height: 450px; /* Should be removed. Only for demonstration */
+  }
+
+  .content{
+   
+    display: block;
+    float: left;
+    padding: 55px;
+    width: 50%;
+   
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 75%;
+  }
+  .center{
+text-align: center;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    position: absolute;
+    transform: translate(130%);
+    
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    
+  }
+

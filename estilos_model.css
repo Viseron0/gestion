@@ -1,0 +1,206 @@
+body, html {
+    height: 100%;
+  }
+  
+  .parallax {
+    /* The image used */
+    background-image: url('vender1.jpg');
+  
+    /* Full height */
+    height: 60%; 
+   
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .contenedor{
+      padding-left: 0%;
+      padding-right: 0%;
+      min-width: 50% ;
+      
+  }
+  
+  /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+  @media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
+  .columtoolbar{
+      float: left;
+      width: 20%;
+      padding: 10px;
+      border-radius: 10px;
+  }
+.background{
+  background-color: rgb(44, 39, 39);
+}
+.lettercolor{
+  color: #ffff;
+}
+  .columna {
+	position: absolute;
+	
+	padding: 2px;
+	
+	width: 750px;
+	height: 55px;  
+    
+	top: 10%; 
+	left: 5%;
+  }
+
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  padding: 20px 20px;
+  box-sizing: border-box;
+}
+.container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  flex-wrap: wrap;
+}
+.container .card{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+
+.container .card .box{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+  padding: 20px;
+  transition: 0.5s ease-in-out;
+}
+.container .card:hover .box{
+  transform:translateY(-210px);
+}
+.container .card img{
+  transition: 0.5s ease-in-out;
+}
+.container .card:hover img{
+  opacity: 0;
+  visibility: hidden;
+}
+
+.container .card .box h2{
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+.container .card .content{
+  position: absolute;
+  bottom: 20px;
+  display:flex;
+  padding-left:10px ;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+}
+.container .card:hover .content{
+  opacity: 1;
+  visibility: visible;
+} 
+/* .center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+} */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+ /* Should be removed. Only for demonstration */
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+/* posision, tamaño y color de los contendores individuales */
+
+.container .contbig1{
+  width: 900px;
+  height: 350px;
+  margin: 20px 40px;
+  background:rgb(255, 255, 255);
+}
+.container .contbig2{
+  width: 400px;
+  height: 350px;
+  top: 800%;
+  left: 0%;
+  margin: 20px 40px;
+  background:rgb(245, 152, 105);
+}
+.container .contbig3{
+  width: 400px;
+  height: 350px;
+  margin: 20px 40px;
+  background:rgb(86, 195, 77);
+}
+.container .contbig4{
+  width: 400px;
+  height: 350px;
+  margin: 20px 40px;
+  background:rgb(101, 75, 186);
+}
+.container .contbig5{
+  width: 400px;
+  height: 350px;
+  margin: 20px 40px;
+  background:rgb(81, 134, 203);
+}
+.container .contbig6{
+  width: 400px;
+  height: 350px;
+  margin: 20px 40px;
+  background:rgb(199, 185, 79);
+}
+.container .contbig7{
+  width: 400px;
+  height: 350px;
+  margin: 20px 40px;
+  background:rgb(179, 72, 170);
+}
+.container .contbig8{
+  width: 400px;
+  height: 350px;
+  margin: 20px 40px;
+  background:rgb(195, 116, 77);
+}
+.container .contbig9{
+  width: 400px;
+  height: 350px;
+  margin: 20px 40px;
+  background:rgb(184, 73, 136);
+}
+.container .contbig10{
+  width: 400px;
+  height: 350px;
+  margin: 20px 40px;
+  transform: translateY(0px) translateX(0px);
+  background:rgb(174, 68, 121);
+}

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="estilos.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+
+</style>
+</head>
+<body>
+
+
+<nav class=" navbar-inverse" id="toolbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav ">
+        <li class="active"><a href="#">Home</a></li>
+        <!-- <li><a href="#">Page 1</a></li>
+        <li><a href="#">Page 2</a></li>
+        <li><a href="#">Page 3</a></li> -->
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <form class="navbar-form navbar-left" action="/action_page.php">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search">
+            <div class="input-group-btn">
+              <button class="btn btn-default" type="submit">
+                <i class="glyphicon glyphicon-search"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </ul>
+    </div>
+    
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+<!-- Header -->
+<section>
+	<div class="animdesvanecer contenedor">
+		<img  src="img1.jpg" id="img1" >
+		<img  src="img2.jpg" id="img2" hidden="true">
+		<img  src="img3.jpg" id="img3" hidden="true">
+		<div class="columna glassmorhism" >  		  
+			<div >			
+				<div class="w3-bar  w3-left-align w3-large ">
+				  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction1()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+				  <a id="boton1" class="w3-button w3-padding-large w3-hover-black columtoolbar">Nuestro Sabor</a>
+				  <a id="boton2" class="w3-button w3-padding-large w3-hover-black columtoolbar">Productos</a>
+				  <a id="boton3" class="w3-button w3-padding-large w3-hover-black columtoolbar">Contacto</a>
+				</div>
+									
+				<div id="toolbar" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+				  <a href="#" class="w3-bar-item w3-button w3-padding-large">Nuestro Sabor</a>
+				  <a href="#" class="w3-bar-item w3-button w3-padding-large">Productos</a>
+				  <a href="#" class="w3-bar-item w3-button w3-padding-large">Contacto</a>
+				</div>                
+			</div>		
+		</div>
+		<div class="columna1 glassmorhism" >
+			<div id="div1">
+				<div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+					<h2 class="w3-wide">ASTRAL</h2>
+					<p class="w3-opacity"><i>por amor a la cerveza</i></p>
+					<p class="w3-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+					 ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+					 adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				
+				</div>
+			</div>
+			<div id="div2" hidden="true">
+
+        <div id="tour">
+          <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+            <h2 class="w3-wide w3-center">TOUR DATES</h2>
+            <p class="w3-opacity w3-center"><i>Remember to book your tickets!</i></p><br>
+      
+            <ul class="w3-ul w3-border w3-white w3-text-grey">
+              <li class="w3-padding">September <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+              <li class="w3-padding">October <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+              <li class="w3-padding">November <span class="w3-badge w3-right w3-margin-right">3</span></li>
+            </ul>
+      
+            <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+              <div class="w3-third w3-margin-bottom">
+                
+                <div class="w3-container w3-white">
+                  <p><b>New York</b></p>
+                  <p class="w3-opacity">Fri 27 Nov 2016</p>
+                  <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                  <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+                </div>
+              </div>
+              <div class="w3-third w3-margin-bottom">
+                
+                <div class="w3-container w3-white">
+                  <p><b>Paris</b></p>
+                  <p class="w3-opacity">Sat 28 Nov 2016</p>
+                  <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                  <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+                </div>
+              </div>
+              <div class="w3-third w3-margin-bottom">
+                
+                <div class="w3-container w3-white">
+                  <p><b>San Francisco</b></p>
+                  <p class="w3-opacity">Sun 29 Nov 2016</p>
+                  <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                  <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+			</div>
+			<div id="div3" hidden="true">
+
+        <div id="ticketModal" class="w3-modal">
+          <div class="w3-modal-content w3-animate-top w3-card-4">
+            <header class="w3-container w3-teal w3-center w3-padding-32"> 
+              <span onclick="document.getElementById('ticketModal').style.display='none'" 
+            class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+              <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+            </header>
+            <div class="w3-container">
+              <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+              <input class="w3-input w3-border" type="text" placeholder="How many?">
+              <p><label><i class="fa fa-user"></i> Send To</label></p>
+              <input class="w3-input w3-border" type="text" placeholder="Enter email">
+              <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+              <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+              <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+            </div>
+          </div>
+        </div>
+      
+        <!-- The Contact Section -->
+        <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+          <h2 class="w3-wide w3-center">CONTACTO</h2>
+          <p class="w3-opacity w3-center"><i>pide tu reserva</i></p>
+          <div class="w3-row w3-padding-32">
+            <div class="w3-col m6 w3-large w3-margin-bottom">
+              <i class="fa fa-map-marker" style="width:30px"></i> Bogota, CO<br>
+              <i class="fa fa-phone" style="width:30px"></i> Telefono: +00 151515<br>
+              <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+            </div>
+            <div class="w3-col m6">
+              <form action="/action_page.php" target="_blank">
+                <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                  <div class="w3-half">
+                    <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                  </div>
+                  <div class="w3-half">
+                    <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                  </div>
+                </div>
+                <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+                <button class="w3-button w3-black w3-section w3-right" type="submit">enviar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+			</div>
+		</div>
+	</div> 
+</section> 
+
+
+<div class="row">
+  <div class="column_33">
+    <img src="base1.jpg" width="100%" height="100%">
+  </div>
+  <div class="column_66">
+      <div class="container" >
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>NUESTRA INOVACION EN CERVEZAS</h1>
+        <br>
+        <blockquote >
+        <H3><p class="w3-justify">Buscamos ofrece una alternativa totalmente fresca y personalizada, con los mejores sabores, fruto de la elaboracíon artesanal, 
+          con diferentes furzas en cada una de nuestras cervezas.
+          <br>
+          <br>
+          Un producto que satisface las necesidades de probar algo nuevo y diferente a lo común.
+          
+          </p></H3>
+        </blockquote>
+      </div>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="column_12">
+
+  </div>
+  <div class="column_75"  >
+    
+      <div class="content"  >
+        <div>
+          <img src="base2.jpg" class="img">
+        </div>
+        <h1 class="center">PLAN DE NEGOCIO</h1>
+        <br>
+        <h4><p class="w3-justify">Se ofrece una alternativa totalmente fresca y personalizada.
+          <br>
+          <br>
+          Un producto que satisface las necesidades de probar algo nuevo y diferente a lo común.
+          </p></H4>
+          <button class="button" onclick="location.href='propuestas.html';">Propuestas</button>
+      </div>
+
+      <div class="content"  >
+        <div>
+          <img src="base3.jpg" class="img">
+        </div>
+        <br>
+        <h1 class="center">PATRON DE NEGOCIO</h1>
+        <br>
+        <H4><p class="w3-justify">Analizamos diferentes modelos de negocio planteados para nuestar cerevezeria, aqui puede ver los diferentes moelos analizados</p></H4>
+        <br>
+        <br>
+        <button class="button" onclick="location.href='modelo.html';">Modelos</button>
+      </div>
+      
+  </div>
+  <div class="column_12">
+
+  </div>
+</div>
+
+
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Powered by Viseron</p>
+</footer>
+
+
+
+<script>
+// Se usa para alternar el menú en pantallas pequeñas al hacer clic en el botón de menú
+
+function myFunction1() {
+  var x = document.getElementById("toolbar");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+//ocultar la barra de navegacion al scroll
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+
+$(document).ready(function(){
+  $("#boton1").click(function(){
+    $("#div1").show();
+    $("#div2").hide();
+    $("#div3").hide();
+
+    $("#img1").show();
+    $("#img2").hide();
+    $("#img3").hide();
+  });
+  $("#boton2").click(function(){
+  	$("#div1").hide();
+    $("#div2").show();
+    $("#div3").hide(); 
+    
+    $("#img1").hide();
+    $("#img2").show();
+    $("#img3").hide();
+  }); 
+    $("#boton3").click(function(){
+  	$("#div1").hide();
+    $("#div2").hide();
+    $("#div3").show(); 
+    
+    $("#img1").hide();
+    $("#img2").hide();
+    $("#img3").show();
+  });
+});
+
+</script>
+</body>
+</html>
